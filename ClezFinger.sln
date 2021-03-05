@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClezFinger", "ClezFinger\ClezFinger.csproj", "{7621E32F-C056-47BD-A531-C8708D204FEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "ClezFinger\UI.csproj", "{7621E32F-C056-47BD-A531-C8708D204FEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{7BA0CD5F-487C-4B43-A119-5AD31D684782}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7621E32F-C056-47BD-A531-C8708D204FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7621E32F-C056-47BD-A531-C8708D204FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7621E32F-C056-47BD-A531-C8708D204FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA0CD5F-487C-4B43-A119-5AD31D684782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA0CD5F-487C-4B43-A119-5AD31D684782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA0CD5F-487C-4B43-A119-5AD31D684782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA0CD5F-487C-4B43-A119-5AD31D684782}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
